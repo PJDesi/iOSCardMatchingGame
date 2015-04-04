@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1102F2D71AD07B3300168B4D /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1102F2D61AD07B3300168B4D /* CardMatchingGame.m */; };
 		118D52541ACB4FCE00C04AEF /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 118D52531ACB4FCE00C04AEF /* PlayingCardDeck.m */; };
 		11E534141AC9DDF0008D44F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E534131AC9DDF0008D44F0 /* main.m */; };
 		11E534171AC9DDF0008D44F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E534161AC9DDF0008D44F0 /* AppDelegate.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1102F2D51AD07B3200168B4D /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		1102F2D61AD07B3300168B4D /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
 		118D52521ACB4FCE00C04AEF /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = CardGame/PlayingCardDeck.h; sourceTree = "<group>"; };
 		118D52531ACB4FCE00C04AEF /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = CardGame/PlayingCardDeck.m; sourceTree = "<group>"; };
 		11E5340E1AC9DDF0008D44F0 /* CardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +86,8 @@
 				11E5343E1AC9E81C008D44F0 /* Deck.m */,
 				11E5343A1AC9E73B008D44F0 /* Card.h */,
 				11E5343B1AC9E73B008D44F0 /* Card.m */,
+				1102F2D51AD07B3200168B4D /* CardMatchingGame.h */,
+				1102F2D61AD07B3300168B4D /* CardMatchingGame.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 				11E5343F1AC9E81C008D44F0 /* Deck.m in Sources */,
 				11E5341A1AC9DDF0008D44F0 /* ViewController.m in Sources */,
 				11E534171AC9DDF0008D44F0 /* AppDelegate.m in Sources */,
+				1102F2D71AD07B3300168B4D /* CardMatchingGame.m in Sources */,
 				118D52541ACB4FCE00C04AEF /* PlayingCardDeck.m in Sources */,
 				11E534141AC9DDF0008D44F0 /* main.m in Sources */,
 				11E5343C1AC9E73B008D44F0 /* Card.m in Sources */,
